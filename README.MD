@@ -19,7 +19,7 @@ A primeira fase foi uma inspeção manual do código-fonte original (`codigoOrig
 
 A imagem abaixo (de `planilha/palnilha.JPG`) detalha os 7 pontos de falha encontrados durante a inspeção:
 
-![Planilha de Análise Estática](planilha/planilha.JPG)
+![Planilha de Análise Estática](planilha/aaa.JPG)
 
 *(O arquivo-fonte desta planilha pode ser encontrado em: `planilha/ui_ux.xlsx`)*
 
