@@ -58,9 +58,17 @@ Com base no V(G)=3, a imagem abaixo (exportada do `draw.io`) mostra os três cam
 **Caminhos Básicos (Rotas):**
 
 ```
-1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7(true) -> 8 -> 12
-1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7(false) -> 9 -> 12
-1 -> 2 -> 3 -> 4(catch) -> 10 -> 11(finaliza)
+Caminho 1 (Sucesso): 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7(true) -> 8 -> 12
+
+Cenário: O try funciona e o if(rs.next()) é verdadeiro (usuário encontrado).
+
+Caminho 2 (Falha Normal): 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7(false) -> 9 -> 12
+
+Cenário: O try funciona, mas o if(rs.next()) é falso (usuário não encontrado).
+
+Caminho 3 (Exceção): 1 -> 2 -> 3 -> 4(catch) -> 10 -> 11(finaliza)
+
+Cenário: O try falha (ex: NPE ou SQLException) e o bloco catch é executado.
 ```
 
 **Cálculo (Fórmula `E - N + 2P`):**
